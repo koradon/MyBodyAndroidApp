@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MyBodyAndroidApp</string>
+    <string name="app_name">MyBody</string>
+    <string name="hello_world">Update your body dimensions</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="heightEditTextHint">in cm</string>
+    <string name="weightEditTextHint">in kg</string>
+    <string name="addBodyButtonText">Add Body!</string>
 </resources>
