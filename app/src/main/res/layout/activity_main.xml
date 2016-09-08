@@ -9,69 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.michal.mybodyandroidapp.MainActivity">
 
-    <TextView
-        android:id="@+id/helloTextView"
+    <Button
+        android:id="@+id/goToAddBodyActivityButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-    <GridLayout
-        android:id="@+id/addBodyDimensionGridLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:columnCount="2">
-
-        <TextView
-            android:id="@+id/heightTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:text="@string/height"/>
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/heightEditText"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:hint="@string/heightEditTextHint"/>
-
-        <TextView
-            android:id="@+id/weightTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:text="@string/weight"/>
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/weightEditText"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:hint="@string/weightEditTextHint"/>
-    </GridLayout>
+        android:layout_centerHorizontal="true"
+        android:text="@string/addBodyDimenssions"
+        android:onClick="onClickGoToAddBodyActivity"
+        android:ems="20"/>
 
     <Button
-        android:id="@+id/addBodyButton"
+        android:id="@+id/showGraph"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/addBodyDimensionGridLayout"
-        android:onClick="onClickAddBody"
-        android:text="@string/addBodyButtonText"/>
-
-
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/goToAddBodyActivityButton"
+        android:text="@string/showGraph"
+        android:onClick="goToShowGraphActivity"
+        android:ems="20"/>
 </RelativeLayout>

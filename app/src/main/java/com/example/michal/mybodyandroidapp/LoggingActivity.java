@@ -14,7 +14,7 @@ public class LoggingActivity extends AppCompatActivity {
     }
 
     public void onClickLogin(View view){
-        Intent addBody = new Intent(LoggingActivity.this, AddBodyDimenssionsActivity.class);
-        startActivity(addBody);
+        Intent mainActivity = new Intent(LoggingActivity.this, MainActivity.class);
+        startActivity(mainActivity);
     }
 }

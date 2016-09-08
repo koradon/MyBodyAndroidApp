@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MyBody</string>
     <string name="login">LOG IN!</string>
+    <string name="addBodyDimenssions">Add Body</string>
+    <string name="showGraph">Show Graph</string>
     <string name="hello_world">Update your body dimensions</string>
     <string name="height">Height</string>
     <string name="weight">Weight</string>
