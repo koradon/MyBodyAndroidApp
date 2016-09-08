@@ -8,7 +8,7 @@ import android.widget.EditText;
 import com.example.michal.mybodyandroidapp.model.Body;
 import com.example.michal.mybodyandroidapp.model.BodyHistory;
 
-public class AddBodyDimenssionsActivity extends AppCompatActivity {
+public class AddBodyDimensionsActivity extends AppCompatActivity {
     BodyHistory bodyHistory;
 
     private double height;

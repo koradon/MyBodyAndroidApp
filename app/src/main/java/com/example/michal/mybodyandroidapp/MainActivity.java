@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickGoToAddBodyActivity(View view) {
-        Intent addBody = new Intent(MainActivity.this, AddBodyDimenssionsActivity.class);
+        Intent addBody = new Intent(MainActivity.this, AddBodyDimensionsActivity.class);
         startActivity(addBody);
     }
 
