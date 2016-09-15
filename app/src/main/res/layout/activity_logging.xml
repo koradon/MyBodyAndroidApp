@@ -10,10 +10,19 @@
     android:gravity="bottom"
     tools:context=".LoggingActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginImage"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+         />
+
     <EditText
         android:id="@+id/loginEdditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/loginImage"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:gravity="center"
@@ -34,10 +43,13 @@
         android:id="@+id/loggingButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ems="13"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/passwordEditText"
         android:text="@string/login"
         android:onClick="onClickLogin"/>
+
+
 
 
 </RelativeLayout>
