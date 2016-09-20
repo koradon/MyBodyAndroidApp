@@ -10,11 +10,18 @@
     android:gravity="bottom"
     tools:context=".LoggingActivity">
 
+    <ImageView
+        android:id="@+id/humanBodySketch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/human_body"/>
+
     <EditText
         android:id="@+id/loginEdditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_below="@id/humanBodySketch"
         android:ems="10"
         android:gravity="center"
         android:hint="LOGIN"/>
